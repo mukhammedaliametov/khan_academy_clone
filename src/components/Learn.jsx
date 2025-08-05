@@ -8,24 +8,24 @@ const Learn = () => {
   return (
     <div className="container min-h-[100vh] py-[60px]">
       <div className="w-full">
-        <div className="text-center">
-          <h1 className="section-title text-[54px] mb-[15px]">
+        <div className="text-center w-[90%] mx-auto">
+          <h1 className="section-title text-[54px] mb-[15px] mx-[20px]">
             Kam vaqtda <span>ko‘proq o‘rganish</span>
           </h1>
-          <p className="text-[#8A90A5] text-[20px] w-[400px] lg:w-[483px] mx-auto mb-[40px]">
+          <p className='text-[#8A90A5] text-[17px] lg:text-[20px] mb-[40px]'>
             Khan akademiyasida juda qisqa muddatda istalgan dasturlash sohasida
             Junior darajasiga chiqa olasiz
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row items-center lg:border-1 border-[#8A90A5] rounded-[8px]">
-          <div className="relative w-[430px] lg:w-[670px] flex justify-center items-center">
-            <img src={LearnImg1} alt="learn_img1" className="w-full" />
+        <div className="flex flex-col lg:flex-row items-center w-[80%] mx-auto lg:border-1 border-[#8A90A5] rounded-[8px]">
+          <div className="relative w-[330px] lg:w-[670px] flex justify-center items-center">
+            <img src={LearnImg1} alt="learn_img1" className="w-full rounded-[10px] lg:rounded-none" />
             <div className="absolute text-[40px] text-white p-[25px] cursor-pointer rounded-full bg-[#6D7581]">
               <TbPlayerPlayFilled />
             </div>
           </div>
-          <div className="mx-auto">
-            <div className="w-[430px] lg:w-[320px] relative shadow-xl p-[20px] rounded-[10px] mt-[30px]">
+          <div className="mx-auto ml-[-8px]">
+            <div className="w-[330px] lg:w-[320px] relative shadow-xl p-[20px] rounded-[10px] mt-[30px]">
               <img src={LearnImg2} alt="learn_img2" className="w-full" />
               <div className="flex items-center gap-[10px] text-[#1D72D2]">
                 <p className="py-[6px] px-[14px] text-[12px] my-[5px] bg-[#EFF2F7]">PLUS</p>
