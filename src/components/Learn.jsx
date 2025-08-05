@@ -17,15 +17,15 @@ const Learn = () => {
             Junior darajasiga chiqa olasiz
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row items-center w-[80%] mx-auto lg:border-1 border-[#8A90A5] rounded-[8px]">
+        <div className="flex flex-col lg:flex-row items-center mx-auto lg:border-1 border-[#8A90A5] rounded-[8px]">
           <div className="relative w-[330px] lg:w-[670px] flex justify-center items-center">
             <img src={LearnImg1} alt="learn_img1" className="w-full rounded-[10px] lg:rounded-none" />
             <div className="absolute text-[40px] text-white p-[25px] cursor-pointer rounded-full bg-[#6D7581]">
               <TbPlayerPlayFilled />
             </div>
           </div>
-          <div className="mx-auto ml-[-8px]">
-            <div className="w-[330px] lg:w-[320px] relative shadow-xl p-[20px] rounded-[10px] mt-[30px]">
+          <div className="w-[45%] mx-auto mr-[183px] lg:mr-0">
+            <div className="w-[320px] lg:w-[320px] mx-auto relative shadow-xl p-[20px] rounded-[10px] mt-[30px]">
               <img src={LearnImg2} alt="learn_img2" className="w-full" />
               <div className="flex items-center gap-[10px] text-[#1D72D2]">
                 <p className="py-[6px] px-[14px] text-[12px] my-[5px] bg-[#EFF2F7]">PLUS</p>
