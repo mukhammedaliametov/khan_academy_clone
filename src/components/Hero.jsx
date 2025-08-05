@@ -5,9 +5,10 @@ import GreenIcon from '../assets/hero_icon.png';
 
 const Hero = () => {
     return (
-        <div className='container pt-[50px] mx-auto h-[100vh]'>
+        <div className='bg-[#F8FAFC]'>
+        <div className='container pt-[50px] mx-auto h-[85vh] md:h-[100vh]'>
             <div className='w-[420px] lg:w-[860px] mx-auto flex items-center flex-col text-center gap-[20px]'>
-                <h1 className='section-title '><span>Dasturlashni</span> biz bilan qulay muhitda o‘rganing</h1>
+                <h1 className='section-title text-[62px]'><span>Dasturlashni</span> biz bilan qulay muhitda o‘rganing</h1>
                 <p className='text-[#8A90A5] text-[20px]'>Khan Academy - bu siz izlagan akademiya bo’lib, unda siz juda qisqa muddatda istalgan dasturlash sohasida Junior darajasiga chiqa olasiz! </p>
                 <div className='flex flex-col lg:flex-row items-center gap-[10px] my-[20px] w-full lg:w-auto'>
                     <button className='flex items-center justify-center gap-[10px] w-full lg:w-auto rounded-[8px] cursor-pointer bg-[#1D71D0] text-white py-[15px] px-[35px] text-[16px]'>Boshlash <FaArrowRightLong /></button>
@@ -21,6 +22,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 };

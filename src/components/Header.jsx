@@ -23,7 +23,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="sticky w-full top-0 bg-white shadow-sm px-[30px] lg:px-0">
+    <div className="sticky w-full top-0 bg-white shadow-sm px-[30px] lg:px-0 z-999">
       <div className="flex items-center justify-between container py-[20px] gap-[25px]">
         <div
           onClick={handleClick}
